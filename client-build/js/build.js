@@ -1,0 +1,1 @@
+({appDir:"../",baseUrl:"js/",dir:"../../client-build",optimize:"uglify",optimizeCss:"standard.keepLines",paths:{jquery:"lib/require-jquery"},modules:[{name:"jquery"},{name:"game",exclude:["jquery"]},{name:"home",exclude:["jquery","game"]}],pragmas:{devHost:!1,prodHost:!0}});

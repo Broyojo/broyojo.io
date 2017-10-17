@@ -1,0 +1,1 @@
+define([],function(){var e=Class.extend({init:function(e,t,n,r){this.x=e,this.y=t,this.width=n,this.height=r},contains:function(e){return e?e.gridX>=this.x&&e.gridY>=this.y&&e.gridX<this.x+this.width&&e.gridY<this.y+this.height:!1}});return e});

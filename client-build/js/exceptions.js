@@ -1,0 +1,1 @@
+define([],function(){var e={LootException:Class.extend({init:function(e){this.message=e}})};return e});
