@@ -1,0 +1,1 @@
+define(["character"],function(e){var t=e.extend({init:function(e,t){this._super(e,t),this.aggroRange=1,this.isAggressive=!0}});return t});

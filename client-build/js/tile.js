@@ -1,0 +1,1 @@
+define([],function(){var e=Class.extend({}),t=e.extend({init:function(e,t,n,r){this.startId=e,this.id=e,this.length=t,this.speed=n,this.index=r,this.lastTime=0},tick:function(){this.id-this.startId<this.length-1?this.id+=1:this.id=this.startId},animate:function(e){return e-this.lastTime>this.speed?(this.tick(),this.lastTime=e,!0):!1}});return t});

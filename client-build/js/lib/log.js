@@ -1,0 +1,1 @@
+var Logger=function(e){this.level=e};Logger.prototype.info=function(){},Logger.prototype.debug=function(){},Logger.prototype.error=function(){},log=new Logger("debug");
